@@ -522,6 +522,15 @@ with tab3:
             <h3>ElasticNet</h3>
             <p>A linear regression model with L1 and L2 regularization. Good for when you suspect linear relationships between features and the target, with some feature selection capabilities.</p>
         </div>
+         <div class="model-info">
+            <h3>Description</h3>
+            <p>• This application is designed to help with data cleaning, forecasting, anomaly detection, and visualization</p>
+            <p>• This dashboard allows users to analyze fuel sales data and forecast future sales using five advanced algorithms.</p>
+            <p>• Users can easily upload fuel sales data (or use sample data) in CSV, XLS, or XLSX formats.</p>
+            <p>• Multiple Visualizations chart types (line, bar, area, scatter, heatmap) let users explore trends and correlations in their data.</p>
+            <p>• View raw data with pagination, access descriptive statistics, and examine time-based trends (monthly, weekday vs. weekend) to gain deep insights into your  performance.<p> 
+            <p>• Developed by: DHANAVANTH.S </p>
+        </div>
         """, unsafe_allow_html=True)
     
     if date_col in df.columns and target_column in df.columns:
